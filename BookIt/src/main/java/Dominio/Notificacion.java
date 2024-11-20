@@ -4,9 +4,9 @@ public class Notificacion {
     private int id;
     private Usuario usuario;
     private String mensaje;
-    private String tipo; // "Confirmación", "Recordatorio", "Cambio de evento"
+    private String tipo; //notificacion de "Confirmación", "Recordatorio", "Cambio de evento"
 
-    /*// Métodos
+    /*posibles emtodos
     public void enviarNotificacion(); // Envía una notificación al usuario*/
 }
 

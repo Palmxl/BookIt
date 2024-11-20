@@ -1,9 +1,8 @@
 package Dominio;
 
 public class Administrador extends Usuario {
-
-    /*// Métodos adicionales
-    public void gestionarReservas(); // Ver, modificar o eliminar reservas
-    public void generarInformes(); // Reportes de ventas y aforo*/
+    /*metodos que pueden ser adicionales, revisar si es necesario.......
+    public void gestionarReservas(); //ver, modificar o eliminar reservas
+    public void generarInformes(); //reportes de ventas y aforo*/
 }
 

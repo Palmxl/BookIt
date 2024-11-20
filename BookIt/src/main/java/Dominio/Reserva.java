@@ -5,10 +5,10 @@ public class Reserva {
     private Usuario usuario;
     private Evento evento;
     private int cantidadTickets;
-    private String metodoPago; // "Tarjeta de crédito", "Tarjeta de débito", "PayPal"
-    private String estado; // "Confirmada", "Pendiente", "Cancelada"
+    private String metodoPago;
+    private String estado; //puede que sea confirmada cancelada o en espera algo asi
 
-    /*// Métodos
+    /*posibles metdos
     public void crearReserva(); // Registra una reserva
     public void cancelarReserva(); // Cancela una reserva*/
 }

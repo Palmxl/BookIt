@@ -10,11 +10,11 @@ public class Evento {
     private String lugar;
     private int capacidadTotal;
     private int capacidadDisponible;
-    private List<Reserva> reservas;
+    private List<Reserva> reservas; //un evento puede tener varias reservas
 
-    /*// Métodos
-    public void agregarEvento(); // Crea un nuevo evento (Administrador)
-    public void modificarEvento(); // Modifica datos del evento (Administrador)
-    public void eliminarEvento(); // Elimina un evento (Administrador)*/
+    /*posivles meotodos
+    public void agregarEvento(); //crea un nuevo evento como admin
+    public void modificarEvento(); //modifica datos del evento como admin
+    public void eliminarEvento(); //elimina un evento como admin*/
 }
 

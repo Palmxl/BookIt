@@ -7,10 +7,10 @@ public class Usuario {
     private String nombre;
     private String correo;
     private String contrasena;
-    private String rol; // "Cliente" o "Administrador"
-    private List<Reserva> reservas;
+    private String rol; //cliente o admin xd
+    private List<Reserva> reservas; //un usuario puede tener varias reservas
 
-    /*// Métodos
+    /*posibles metodos
     public void registrar(); // Registra un nuevo usuario
     public void iniciarSesion(); // Autentica al usuario
     public void editarPerfil(); // Modifica los datos del usuario*/
