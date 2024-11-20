@@ -1,9 +1,9 @@
-package com.example.bookit;
+package Controladores;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class LoginUsuarioController {
     @FXML
     private Label welcomeText;
 
