@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:controller="Controladores.LoginAdminController" fx:id="anchorLoginUsuario" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="anchorLoginUsuario" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.LoginAdminController">
     <children>
         <!-- Título del AnchorPane -->
         <Label layoutX="110.0" layoutY="20.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Inicio de sesión" />
@@ -15,7 +15,7 @@
         </VBox>
         <TextField layoutX="74.0" layoutY="125.0" prefHeight="35.0" prefWidth="249.0" />
         <TextField layoutX="71.0" layoutY="203.0" prefHeight="35.0" prefWidth="250.0" />
-        <Button layoutX="148.0" layoutY="270.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" text="Iniciar Sesion" />
+        <Button fx:id="LoginButton" layoutX="148.0" layoutY="270.0" mnemonicParsing="false" onAction="#LoginButtonClick" prefHeight="26.0" prefWidth="102.0" text="Iniciar Sesion" />
         <Button layoutX="148.0" layoutY="322.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="101.0" text="Usuario" />
         <Label layoutX="74.0" layoutY="106.0" prefHeight="18.0" prefWidth="88.0" text="Usuario" />
         <Label layoutX="74.0" layoutY="184.0" prefHeight="18.0" prefWidth="113.0" text="Contraseña" />
