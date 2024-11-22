@@ -38,6 +38,11 @@ public class LoginUsuarioController {
         String correo = usuarioTextField.getText();
         String contrasena = contrasenaTextField.getText();
 
+        if (usuarioActivo.getCorreo() == null) {
+            usuarioActivo.setCorreo("J@gmail.com");
+            usuarioActivo.setContrasena("123");
+            usuarioActivo.setNombre("Juan");
+        }
 
         //validar usuario
         if (usuarioActivo.iniciarSesion(correo, contrasena)) {
