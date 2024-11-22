@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Controladores.EventosController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="anchorLoginUsuario" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.EventosController">
+    <children>
+        <!-- Título del AnchorPane -->
+        <Label layoutX="162.0" layoutY="20.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Eventos" />
+        <!-- VBox negro con el texto "BookIt" -->
+        <VBox alignment="CENTER" layoutX="399.0" prefHeight="429.0" prefWidth="227.0" spacing="10" style="-fx-background-color: #000000;">
+            <children>
+                <Label style="-fx-text-fill: white; -fx-font-size: 32px; -fx-font-weight: bold;" text="BookIt" />
+            </children>
+        </VBox>
+        <Button fx:id="pagoButton" layoutX="155.0" layoutY="332.0" mnemonicParsing="false" onAction="#PagoButtonClick" prefHeight="26.0" prefWidth="102.0" text="Pago" />
+      <DatePicker layoutX="119.0" layoutY="119.0" prefHeight="26.0" prefWidth="175.0" />
+      <ChoiceBox layoutX="118.0" layoutY="190.0" prefHeight="26.0" prefWidth="175.0" />
+      <ChoiceBox layoutX="119.0" layoutY="262.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="118.0" layoutY="102.0" text="Seleccione la fecha" />
+      <Label layoutX="118.0" layoutY="172.0" text="Tipo de evento" />
+      <Label layoutX="119.0" layoutY="245.0" text="Disponibilidad de entradas" />
+    </children>
 </AnchorPane>

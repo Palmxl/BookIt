@@ -13,8 +13,8 @@
                 <Label style="-fx-text-fill: white; -fx-font-size: 32px; -fx-font-weight: bold;" text="BookIt" />
             </children>
         </VBox>
-      <TextField layoutX="74.0" layoutY="125.0" prefHeight="35.0" prefWidth="249.0" />
-      <TextField layoutX="71.0" layoutY="203.0" prefHeight="35.0" prefWidth="250.0" />
+      <TextField fx:id="usuarioTextField" layoutX="74.0" layoutY="125.0" prefHeight="35.0" prefWidth="249.0" />
+      <TextField fx:id="contrasenaTextField" layoutX="71.0" layoutY="203.0" prefHeight="35.0" prefWidth="250.0" />
       <Button fx:id="loginButton" layoutX="148.0" layoutY="270.0" mnemonicParsing="false" onAction="#LoginButtonClick" prefHeight="26.0" prefWidth="102.0" text="Iniciar Sesion" />
       <Button fx:id="AdministradorButton" layoutX="148.0" layoutY="322.0" mnemonicParsing="false" onAction="#AdminButtonClick" prefHeight="26.0" prefWidth="101.0" text="Administrador" />
       <Label layoutX="74.0" layoutY="106.0" prefHeight="18.0" prefWidth="88.0" text="Usuario" />
